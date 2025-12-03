@@ -12,7 +12,7 @@
 | **Autor** | Francisco Gudiel |
 | **Carnet** | 202200158 |
 | **Fecha** | Diciembre, 2025 |
-
+ 
 ---
 
 ## B. Objetivos
