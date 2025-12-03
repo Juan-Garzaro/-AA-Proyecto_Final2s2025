@@ -9,7 +9,7 @@
 | **Universidad** | Universidad Da Vinci De Guatemala |
 | **Curso** | Análisis de algoritmos |
 | **Proyecto** | Proyecto Final: Implementación y Análisis de Algoritmos de Optimización de Grafos y Compresión |
-| **Autor** | Juan Garzaro |
+| **Autor** | Francisco Gudiel |
 | **Carnet** | 202200158 |
 | **Fecha** | Diciembre, 2025 |
 
