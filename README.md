@@ -1,4 +1,4 @@
-# 🎓 Proyecto Final: Análisis de Algoritmos Avanzados
+# Proyecto Final: Análisis de Algoritmos Avanzados
 
 ---
 
@@ -12,7 +12,7 @@
 | **Autor** | Francisco Gudiel |
 | **Carnet** | 202200158 |
 | **Fecha** | Diciembre, 2025 |
- 
+ 
 ---
 
 ## B. Objetivos
@@ -21,10 +21,10 @@
 Implementar, analizar y comparar la eficiencia de los **algoritmos fundamentales** de la teoría de grafos (Prim, Kruskal, Dijkstra) y compresión de datos (Huffman), demostrando su aplicación práctica en la solución de problemas de optimización y utilizando estándares de desarrollo profesional (**Docstrings**, complejidad Big O, y **Gitflow**).
 
 ### Objetivos Específicos
-1.  **Implementar** las funciones principales de Prim, Kruskal, Dijkstra y Huffman en Python, asegurando el cumplimiento estricto del estándar de documentación **PEP-257 (Docstrings)**.
-2.  **Determinar y comentar** la complejidad asintótica (**Big O**) de cada algoritmo, justificando el uso de estructuras de datos que optimizan el rendimiento (e.g., colas de prioridad y Union-Find).
-3.  **Generar evidencia visual** (imágenes PNG) de los resultados obtenidos (MST, rutas más cortas y Árbol de Huffman) para validar la correcta ejecución de los algoritmos.
-4.  **Aplicar el flujo de trabajo GitFlow** de manera rigurosa para gestionar el versionamiento del proyecto, incluyendo ramas `feature`, `release`, `hotfix` y *tags* obligatorios.
+1.  **Implementar** las funciones principales de Prim, Kruskal, Dijkstra y Huffman en Python, asegurando el cumplimiento estricto del estándar de documentación **PEP-257 (Docstrings)**.
+2.  **Determinar y comentar** la complejidad asintótica (**Big O**) de cada algoritmo, justificando el uso de estructuras de datos que optimizan el rendimiento (e.g., colas de prioridad y Union-Find).
+3.  **Generar evidencia visual** (imágenes PNG) de los resultados obtenidos (MST, rutas más cortas y Árbol de Huffman) para validar la correcta ejecución de los algoritmos.
+4.  **Aplicar el flujo de trabajo GitFlow** de manera rigurosa para gestionar el versionamiento del proyecto, incluyendo ramas `feature`, `release`, `hotfix` y *tags* obligatorios.
 
 ---
 
@@ -70,13 +70,13 @@ Los archivos de entrada están ubicados en la carpeta `data/`.
 
 El programa principal (`main.py`) gestiona un menú interactivo.
 
-1.  **Requisitos:** Asegurar que las dependencias (`networkx`, `matplotlib`, `pygraphviz` - opcional) estén instaladas.
-2.  **Ejecución:** Ejecutar el archivo principal desde el directorio raíz del proyecto:
-    ```bash
-    $ python main.py
-    ```
-3.  **Interacción:** Seleccionar la opción deseada (1, 2, 3 o 4). Para **Dijkstra**, el programa solicitará el nodo de origen.
-4.  **Salida:** Los resultados se imprimen en la consola, y las imágenes se guardan automáticamente en la ruta **`docs/evidencias/`**.
+1.  **Requisitos:** Asegurar que las dependencias (`networkx`, `matplotlib`, `pygraphviz` - opcional) estén instaladas.
+2.  **Ejecución:** Ejecutar el archivo principal desde el directorio raíz del proyecto:
+    ```bash
+    $ python main.py
+    ```
+3.  **Interacción:** Seleccionar la opción deseada (1, 2, 3 o 4). Para **Dijkstra**, el programa solicitará el nodo de origen.
+4.  **Salida:** Los resultados se imprimen en la consola, y las imágenes se guardan automáticamente en la ruta **`docs/evidencias/`**.
 
 ---
 
@@ -102,10 +102,10 @@ El proyecto se gestionó siguiendo estrictamente el modelo **GitFlow**, aseguran
 
 | Tipo de Rama | Ramas Creadas | Propósito |
 | :--- | :--- | :--- |
-| **Long-Lived** | `main`, `develop` | `main` (Producción estable), `develop` (Integración de nuevas features). |
+| **Long-Lived** | **`main`**, `develop` | **`main`** (Producción estable), `develop` (Integración de nuevas features). |
 | **Feature** | `feature/prim`, `feature/kruskal`, `feature/dijkstra`, `feature/huffman` | Desarrollo aislado de cada algoritmo. Todas mergearon a `develop`. |
 | **Release** | `release/v1.0.0` | Bifurcación de `develop` para la validación final. |
-| **Hotfix** | `hotfix/readme-correction` | Corrección inmediata del nombre del autor en el `README.md` aplicada directamente a `main` y luego mergeada a `develop`. |
+| **Hotfix** | `hotfix/readme-correction` | Corrección inmediata del nombre del autor en el `README.md` aplicada directamente a **`main`** y luego mergeada a `develop`. |
 
 ### Tags Obligatorios
 
@@ -117,6 +117,6 @@ El proyecto se gestionó siguiendo estrictamente el modelo **GitFlow**, aseguran
 
 La implementación de este proyecto ha demostrado la superioridad de los algoritmos avanzados de optimización sobre los enfoques de fuerza bruta.
 
-1.  **Eficiencia Asintótica:** La complejidad $O(E \log V)$ de Prim y Dijkstra y $O(E \log E)$ de Kruskal se consigue gracias a la integración estratégica de estructuras de datos como el **Min-Heap (Cola de Prioridad)** y el **Union-Find**. Estas estructuras reducen drásticamente el costo de las operaciones clave, permitiendo que los algoritmos escalen de manera lineal-logarítmica, crucial para el manejo de grafos grandes y densos.
-2.  **Optimización Garantizada:** Algoritmos *greedy* como Prim, Kruskal y Huffman proporcionan soluciones que son **óptimas a nivel global** para sus respectivos problemas. Huffman garantiza la mínima longitud binaria promedio posible, y Prim/Kruskal garantizan el MST con el menor peso total.
-3.  **Desarrollo Profesional:** El uso de **Docstrings PEP-257** y la anotación precisa de la **complejidad Big O** en el código fuente elevan la calidad y la mantenibilidad del proyecto. El versionamiento con **GitFlow** asegura la trazabilidad y la estabilidad de la rama de producción (`main`).
+1.  **Eficiencia Asintótica:** La complejidad $O(E \log V)$ de Prim y Dijkstra y $O(E \log E)$ de Kruskal se consigue gracias a la integración estratégica de estructuras de datos como el **Min-Heap (Cola de Prioridad)** y el **Union-Find**. Estas estructuras reducen drásticamente el costo de las operaciones clave, permitiendo que los algoritmos escalen de manera lineal-logarítmica, crucial para el manejo de grafos grandes y densos.
+2.  **Optimización Garantizada:** Algoritmos *greedy* como Prim, Kruskal y Huffman proporcionan soluciones que son **óptimas a nivel global** para sus respectivos problemas. Huffman garantiza la mínima longitud binaria promedio posible, y Prim/Kruskal garantizan el MST con el menor peso total.
+3.  **Desarrollo Profesional:** El uso de **Docstrings PEP-257** y la anotación precisa de la **complejidad Big O** en el código fuente elevan la calidad y la mantenibilidad del proyecto. El versionamiento con **GitFlow** asegura la trazabilidad y la estabilidad de la rama de producción (**`main`**).
