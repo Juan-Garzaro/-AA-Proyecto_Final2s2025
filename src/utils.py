@@ -246,3 +246,5 @@ def draw_frequency_png(freqs: Dict[str, int], filename: str):
     plt.savefig(full_path, dpi=300)
     plt.close()
     print(f"✅ Imagen generada: {full_path}")
+    
+    #PR TEST
