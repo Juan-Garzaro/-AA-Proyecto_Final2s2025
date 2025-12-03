@@ -1,0 +1,12 @@
+# Bibliotecas esenciales para procesamiento de grafos y visualización
+networkx
+matplotlib
+
+# Biblioteca para operaciones de E/S y estructuras de datos (Union-Find, Dijkstra, Huffman)
+# heapq y collections son parte de la biblioteca estándar de Python y no requieren instalación.
+# csv y os también son estándar.
+
+# Biblioteca Opcional para un mejor layout de grafos (Usada en utils.py)
+# Si no está instalada, el código usa el fallback 'spring'.
+# Es altamente recomendable incluirla para un proyecto final.
+pygraphviz
